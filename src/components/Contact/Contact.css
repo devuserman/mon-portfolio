@@ -1,0 +1,81 @@
+.contact-form {
+  width: 100%;
+  text-align: center;
+  color: #253479;
+  margin-bottom: 50px;
+
+}
+h2 {
+  color: #253479;
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+.form-container {
+  width: 800px; 
+  margin: auto; 
+}
+.forma {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.forma label {
+  width: 80px;
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+  text-align: right;
+  padding-right: 20px;
+}
+.forma input,
+.forma textarea {
+  width: calc(60% - 300px); /* Ajustement de la largeur pour l'alignement */
+  border: 2px solid #e1e4ee;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 18px;
+  color: #253479;
+  box-sizing: border-box;
+}
+.forma input:focus,
+.forma textarea:focus {
+  outline: none; /* Supprime le contour par défaut */
+  border-color: #e1e4ee; 
+}
+textarea {
+  overflow-y: hidden;
+  resize: none;
+}
+.custom-button {
+  border: none;
+  background-color: #253479;
+  color: #ffffff;           
+  border-radius: 8px;      
+  padding: 10px 20px;      
+  cursor: pointer;   
+  margin-top: 20px;
+}
+.confirmation {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 992px) {
+  .form-container {
+    width: 90%; 
+    margin: auto;
+  }
+
+  .forma input,
+  .forma textarea {
+    width: 80%; /* Remplir la largeur du conteneur parent */
+  }
+}
+@media screen and (max-width: 768px) {
+  .forma input,
+  .forma textarea {
+    width: 60%; /* Remplir la largeur du conteneur parent */
+    height: 40px;
+  }
+}
+

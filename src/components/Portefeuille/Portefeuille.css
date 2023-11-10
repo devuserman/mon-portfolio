@@ -1,0 +1,159 @@
+.container-screen {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+  margin-bottom: 100px;
+  }
+ .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  }
+
+  @keyframes borderAnimation {
+    100% {
+      border-color: #e2dee9;
+    }
+    50% {
+      border-color: #7d8283;
+    }
+    50% {
+      border-color: #efe7fd;
+    }
+  }
+ .project-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0; /* Aucun padding */
+  border: 3px solid transparent;
+  border-radius: 4%;
+  animation: borderAnimation 2s infinite;
+  overflow: hidden; /* Pour s'assurer que rien ne dépasse */
+  overflow-y: auto;
+  transition: 1s;
+ }
+ .project-container:hover {
+  transform: scale(1.1);
+}
+.project-title {
+  font-family: Playfair Display;
+  font-size: 24px;
+  color:  #634c8f;
+}
+ .custom-link-text {
+  color: #08a9e9;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 16px;
+}
+.custom-link-text:hover {
+  cursor: pointer;
+}
+.link-text {
+  color:  #634c8f;
+
+  font-family: Playfair Display;
+  font-size: 22px;
+}
+  .screenshot-wrapper img {
+    width: 100%; /* Image occupe tout l'espace */
+    height: auto;
+    border-radius: 2%;
+    display: block; /* Pour éliminer l'espace blanc en dessous de l'image */
+  }
+  .project-skills {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 1.0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 1; /* Initialement caché */
+    transition: opacity 0.3s ease-in-out; /* Transition pour l'opacité */
+    pointer-events: auto; /* Évite que l'élément bloque les interactions avec les éléments sous-jacents */
+   }
+    
+  .title-cmpt {
+    font-family: Playfair Display;
+    font-size: 22px;
+    color:  #634c8f;
+  }
+  .competences {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    font-family: Playfair Display;
+    font-size: 18px;
+    color:  #342058;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+  
+@media screen and (max-width: 992px){
+    .project-container  {
+      overflow-y: auto;
+    }
+    .project-container:hover {
+      transform: scale(1.3);
+    }
+
+  .project-title {
+    font-size: 18px;
+ }
+ .link-text {
+  font-size: 16px;
+ }
+ .title-cmpt {
+  font-size: 18px;
+ }
+    .competences {
+      font-size: 12px;
+     }
+     .custom-link-text {
+      font-size: 12px;
+     }
+  }
+
+@media screen and (max-width: 768px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
+  .mon-title {
+   font-size: 22px; 
+  }
+  .project-container:hover {
+    transform: scale(1.1);
+  }
+  .project-title {
+    font-size: 16px;
+ }
+ .link-text {
+  font-size: 14px;
+ }
+ .title-cmpt {
+  font-size: 16px;
+ }
+ .competences {
+  font-size: 14px;
+ }
+    }
+
