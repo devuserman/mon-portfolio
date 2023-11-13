@@ -24,7 +24,7 @@ function Apropos() {
       <h2>À propos de moi</h2>
       <h3 className="apropos-text"> Diplômé de l'école Openclassrooms de Paris en développement web, je cultive une passion profonde pour le codage et le design d'interfaces de sites. Toujours en quête d'évolution, je me consacre à l'élargissement continu de mes compétences pour rester à la pointe de la technologie et des tendances du design web. </h3>
       <div className="cv-link">
-        <a href="/images/CV-anna-popova.jpg" target="_blank" rel="noopener noreferrer">
+        <a href="/images/CV-anna-popova.pdf" target="_blank" rel="noopener noreferrer">
         <img src='/images/cv-image.png' alt="Voir mon CV" className="cv-img" />
         </a>
         <p>Voir mon CV</p>
