@@ -77,5 +77,11 @@ textarea {
     width: 60%; /* Remplir la largeur du conteneur parent */
     height: 40px;
   }
+  .forma label  {
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 22px;
+  }
 }
 

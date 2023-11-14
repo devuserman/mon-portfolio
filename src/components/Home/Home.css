@@ -19,11 +19,20 @@ main {
     .text-section {
         font-size: 20px;
     }
+    h1 {
+        font-size: 24px;
+    }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
     .text-section {
         font-size: 18px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    .home-texte {
+        padding: 10px;
     }
 }
 

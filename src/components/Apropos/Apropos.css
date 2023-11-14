@@ -5,7 +5,6 @@
 .titre-apropos {
   font-family: Playfair Display;
   text-align: center;
-  text-shadow: 1px 1px 4px #253479;
   color: #253479;
   font-size: 28px;
 }
@@ -24,7 +23,6 @@
 
 .text-about-me {
   color: #634c8f;
-  text-shadow: 2px 2px 4px  #634c8f;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -44,7 +42,6 @@
     font-size: 20px;
     font-family: Merriweather;
     color: #634c8f;
-    text-shadow: 2px 2px 4px  #634c8f;
     text-align: center;
     line-height: 2;
   }
@@ -59,6 +56,9 @@
   }
   
    @media screen and (max-width: 992px) {
+    .titre-apropos {
+      font-size: 22px;
+    }
     .cv-img {
       width: 15%;
     }
@@ -66,23 +66,26 @@
       width: 100%;
       min-height: 300px;
     }
+
    
   }
   @media screen and (max-width: 768px) {
+    
     .titre-apropos {
-      font-size: 22px;
-    }
-    .titre-apropos {
-      font-size: 22px;
+      font-size: 20px;
     }
     .apropos-text {
-      font-size: 18px;
+      font-size: 14px;
     }
     .text-ps {
-      font-size: 18px;
+      font-size: 16px;
     }
     .text-ps a {
-      font-size: 18px;
+      font-size: 14px;
     }
+    .cv-moi {
+      font-size: 14px;
+    }
+    
     
   }

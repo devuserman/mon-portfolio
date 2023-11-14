@@ -16,7 +16,7 @@ function Home() {
         <main className="text-section">
   <h1>Bonjour !<br/> Je suis Anna</h1>
  <p>Je crée des sites web créatifs et modernes.</p>
-  <p>Bienvenue dans mon univers de code et d'innovation.</p>
+  <p className="home-texte">Bienvenue dans mon univers de code et d'innovation.</p>
   
 </main>
 </div>
