@@ -14,7 +14,7 @@ const SkillsAnimation = () => {
     }, 2000); // Change toutes les 2 secondes
 
     return () => clearInterval(intervalId);
-  }, []);
+  }, [skills.length]);
 
   return (
     <div className="skills-container">
