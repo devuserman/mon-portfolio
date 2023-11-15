@@ -1,0 +1,58 @@
+[
+    {
+      "id": "booki",
+      "title": "Booki",
+      "description": "Recherche d'hébergements",
+      "imageUrl": "/images/booki.png",
+      "projectUrl": "https://devuserman.github.io/Openclassrooms-projet2/",
+      "skills":  ["Intégrer du contenu conformément à une maquette avec HTML et CSS", 
+                   "Implémenter une interface responsive avec HTML et CSS"],
+       "additionalInfo": {
+        "problem": "Problème rencontré : Gestion de la responsivité du projet et manipulation des styles.",
+        "solution": "Résolution : J'ai abordé ce défi en adoptant une approche expérimentale, combinée à des recherches approfondies sur Internet. Cela m'a permis de trouver des solutions efficaces pour rendre le projet réactif tout en manipulant les styles de manière appropriée." 
+           }            
+      },
+    {
+      "id": "nina-carducci",
+      "title": "Nina Carducci",
+      "description": "Portfolio d'une photographe professionnel.",
+      "imageUrl": "/images/photos_nina.png",
+      "projectUrl": "https://devuserman.github.io/Nina-Carducci_new/",
+      "skills": ["Optimiser les performances d’un site web", 
+                 "Débugger un site web grâce aux Chrome DevTools",
+                 "Rédiger un cahier de recette pour tester un site"],
+      "additionalInfo": {
+        "problem":  "Problème rencontré : Optimisation des images pour une taille optimale.",
+        "solution": "Résolution : La question de l'optimisation des photos a été résolue avec l'utilisation du logiciel Gimp. Ce dernier m'a permis d'ajuster et de compresser les images de manière à les rendre plus légères tout en préservant leur qualité."
+      }
+     },
+    {
+        "id": "kasa",
+        "title": "Kasa",
+        "description": "Location d’appartements entre particuliers en France.",
+        "imageUrl": "/images/kasa.png",
+        "projectUrl": "https://ubiquitous-jalebi-e04e16.netlify.app/",
+        "skills": ["Configurer la navigation entre les pages de l'application avec React Router",
+                   "Initialiser une application avec Create React App", 
+                   "Développer des éléments de l'interface d'un site web grâce à des composants React"],
+          "additionalInfo": {
+           "problem": "Problème rencontré: Déploiement du site sur Internet via GitHub Pages.",
+           "solution": "Résolution  : Face à la nécessité de déployer le site sur Internet via GitHub Pages, j'ai résolu ce problème en trouvant une solution pratique sur le site sbcode.net. Cette ressource m'a fourni les étapes nécessaires pour accomplir le déploiement avec succès."
+          }        
+      },
+      {
+        "id": "sophie-bluel",
+        "title": "Sophie Bluel",
+        "description": "Portfolio architecte",
+        "imageUrl": "/images/sophie _bluel.png",
+        "projectUrl": "https://github.com/devuserman/Portfolio-architecte-sophie-bluel/",
+        "skills": ["Récupérer les données utilisateurs dans le JavaScript via des formulaires",
+                  "Manipuler les éléments du DOM avec JavaScript",
+                  "Gérer les événements utilisateurs avec JavaScript"],
+        "additionalInfo" : {
+          "problem":  "Problèmes rencontré : Mise en œuvre de requêtes vers le serveur pour certaines pages du projet.",
+          "solution":  "Résolution : Pour surmonter les défis liés aux requêtes serveur, j'ai effectué des recherches approfondies et trouvé des informations utiles sur le site Mozilla Developer Network. Ces ressources m'ont guidé dans la mise en œuvre réussie des requêtes nécessaires."
+        }                 
+                  }
+  ]
+  

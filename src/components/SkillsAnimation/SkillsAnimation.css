@@ -1,0 +1,40 @@
+.skills-container {
+    display: flex;
+    justify-content: space-around; /* Répartit les compétences en deux colonnes */
+    position: absolute;
+    top: 45%; /* Ajustez en fonction de l'emplacement sur l'image */
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .skill {
+    font-size: 1.5rem;
+    font-family: Playfair Display;
+    color: #253479; /* Choisissez une couleur visible sur l'image */
+    animation: fadeInOut 2s linear infinite;
+    margin: 0 20px;
+  }
+  
+  @keyframes fadeInOut {
+    0%, 100% { opacity: 0; }
+    25%, 75% { opacity: 1; }
+  }
+
+ 
+  
+  @media screen and (max-width: 992px) {
+    .skills-container  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+
+    }  
+} 
+@media screen and (max-width: 768px) {
+  .skill{
+    font-size: 1.0rem;
+  }
+}
