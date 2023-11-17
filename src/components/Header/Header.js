@@ -16,7 +16,7 @@ export function Header() {
           <ul className="nav">
             <li>
               <Link to="/" className={location.pathname === '/' ? 'active' : ''}>
-                Acceuil
+                Accueil
               </Link>
             </li>
             <li>
@@ -26,7 +26,7 @@ export function Header() {
             </li>
             <li>
               <Link to="/portefeuille" className={location.pathname === '/portefeuille' ? 'active' : ''}>
-                Portefeuille
+              Portfolio
               </Link>
             </li>
             <li>
