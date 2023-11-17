@@ -10,13 +10,13 @@
 }
 .computer-image {
   
-  width: 100%; /* Ajuste la taille de l'image de l'ordinateur */
+  width: 100%; 
   height: auto;
 
 }
 .image-container {
   position: relative;
-  width: 80%; /* Ajustez selon vos besoins */
+  width: 80%; 
   margin: auto;
   margin-bottom: 50px;
 }

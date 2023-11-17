@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './SkillsAnimation.css'; // Assurez-vous que ce fichier CSS est créé
+import './SkillsAnimation.css'; 
 
 const SkillsAnimation = () => {
   const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Express.js', 'Figma', 'SEO', 'Déploiement de Sites Web', 'Back-End'];

@@ -30,7 +30,7 @@ h2 {
 }
 .forma input,
 .forma textarea {
-  width: calc(60% - 300px); /* Ajustement de la largeur pour l'alignement */
+  width: calc(60% - 300px); 
   border: 2px solid #e1e4ee;
   border-radius: 5px;
   padding: 15px;
@@ -40,7 +40,7 @@ h2 {
 }
 .forma input:focus,
 .forma textarea:focus {
-  outline: none; /* Supprime le contour par défaut */
+  outline: none;
   border-color: #e1e4ee; 
 }
 textarea {
@@ -68,13 +68,13 @@ textarea {
 
   .forma input,
   .forma textarea {
-    width: 80%; /* Remplir la largeur du conteneur parent */
+    width: 80%; 
   }
 }
 @media screen and (max-width: 768px) {
   .forma input,
   .forma textarea {
-    width: 60%; /* Remplir la largeur du conteneur parent */
+    width: 60%;
     height: 40px;
   }
   .forma label  {

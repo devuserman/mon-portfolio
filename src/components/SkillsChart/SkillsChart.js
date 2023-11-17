@@ -33,7 +33,7 @@ const SkillsChart = () => {
                 }]
             },
             options: {
-                indexAxis: 'y', // Inverser l'axe y
+                indexAxis: 'y', 
                 scales: {
                     x: {
                         beginAtZero: true,

@@ -4,10 +4,10 @@
 
 .code-container {
   position: absolute;
-  width: 64%; /* Ajustez à la taille de l'écran de l'ordinateur */
-  height: 55%; /* Ajustez à la hauteur de l'écran */
-  top: 15%; /* Ajustez pour aligner avec le haut de l'écran */
-  left: 18%; /* Ajustez pour aligner avec le côté gauche de l'écran */
+  width: 64%; 
+  height: 55%; 
+  top: 15%; 
+  left: 18%; 
   overflow: hidden;
   z-index: 10;
 }
@@ -25,7 +25,7 @@
 }
 .falling-code {
  
-  animation-duration: 100s; /* Augmentez cette valeur pour ralentir */
+  animation-duration: 100s; 
 }
 
 @keyframes fallingCode {

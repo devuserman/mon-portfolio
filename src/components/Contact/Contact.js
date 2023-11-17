@@ -22,7 +22,7 @@ function Contact() {
   const [formSent, setFormSent] = useState(false);
 
   const handleInput = (e) => {
-    handleChange(e); // Conservez l'appel à handleChange
+    handleChange(e);
     e.target.style.height = "auto";
     e.target.style.height = e.target.scrollHeight + "px";
   }; 

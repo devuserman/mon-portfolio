@@ -3,7 +3,7 @@ import Header from '../Header/Header.js';
 import Footer from '../Footer/Footer.js';
 import './Apropos.css';
 import SkillsChart from '../SkillsChart/SkillsChart.js';
-import SkillsAnimation from '../SkillsAnimation/SkillsAnimation'; // Nouveau composant pour l'animation des compétences
+import SkillsAnimation from '../SkillsAnimation/SkillsAnimation'; 
 import AnimatedCodeBlock from '../AnimatedCodeBlock/AnimatedCodeBlock';
 
 
