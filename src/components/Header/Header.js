@@ -4,6 +4,7 @@ import './header.css';
 import Logo from './logo.png';
 
 export function Header() {
+   // pour obtenir des informations sur l'URL actuelle
   const location = useLocation();
 
   return (
@@ -14,6 +15,7 @@ export function Header() {
       <div className="menu-nav">
         <nav className="menu">
           <ul className="nav">
+             {/* Liens de navigation avec classe active basée sur l'URL actuelle */}
             <li>
               <Link to="/" className={location.pathname === '/' ? 'active' : ''}>
                 Accueil
