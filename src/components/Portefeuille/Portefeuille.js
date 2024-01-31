@@ -64,8 +64,6 @@ function Portefeuille() {
                         <li key={index}>{skill}</li>
                       ))}
                     </ul>
-                    <div className="dotted-line"></div>
-                     {/* Affichage des informations supplémentaires sur le projet */}
                     <em className="mon-info">{project.additionalInfo.problem}</em><br />
                    <em className="mon-info">{project.additionalInfo.solution}</em><br />
                   </div>

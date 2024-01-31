@@ -21,8 +21,9 @@ function Contact() {
   };
   const [formSent, setFormSent] = useState(false);
 
+  //  met à jour l'état formData avec la nouvelle valeur de la zone de texte
   const handleInput = (e) => {
-    handleChange(e);
+    handleChange(e); // Conservez l'appel à handleChange
     e.target.style.height = "auto";
     e.target.style.height = e.target.scrollHeight + "px";
   }; 
