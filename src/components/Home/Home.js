@@ -6,8 +6,7 @@ import './Home.css';
 
 
 function Home() {
-
-    return (
+  return (
       <>
       <Header />
       <>
@@ -17,8 +16,7 @@ function Home() {
   <h1>Bonjour !<br/> Je suis Anna</h1>
  <p>Je crée des sites web créatifs et modernes.</p>
   <p className="home-texte">Bienvenue dans mon univers de code et d'innovation.</p>
-  
-</main>
+  </main>
 </div>
 </>
 <Footer />

@@ -2,6 +2,16 @@
   width: 90%;
   margin: auto;
 }
+.icone-container {
+  width: 100%;
+  margin: auto;
+ text-align: center;
+  
+}
+.icone-competences {
+object-fit: contain;
+ padding: 10px;
+}
 .titre-apropos {
   font-family: Playfair Display;
   text-align: center;
@@ -10,13 +20,13 @@
 }
 .computer-image {
   
-  width: 100%; /* Ajuste la taille de l'image de l'ordinateur */
+  width: 100%; 
   height: auto;
 
 }
 .image-container {
   position: relative;
-  width: 80%; /* Ajustez selon vos besoins */
+  width: 80%; 
   margin: auto;
   margin-bottom: 50px;
 }
@@ -54,6 +64,7 @@
   .text-ps a {
     font-size: 20px;
   }
+
   
    @media screen and (max-width: 992px) {
     .titre-apropos {

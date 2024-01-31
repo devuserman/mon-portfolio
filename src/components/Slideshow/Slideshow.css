@@ -6,7 +6,7 @@
         overflow: hidden;
         border: 2px solid #ccc; 
         width: 100%;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 2.5); /* Тень размытая */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 2.5); 
         border-radius: 100% 0% 100% 0% / 19% 0% 100% 81%  ;
     }
       

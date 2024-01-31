@@ -34,7 +34,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0; /* Aucun padding */
+  padding: 0; 
   border: 3px solid transparent;
   border-radius: 4%;
   animation: borderAnimation 2s infinite;
@@ -61,15 +61,14 @@
 }
 .link-text {
   color:  #634c8f;
-
   font-family: Playfair Display;
   font-size: 20px;
 }
   .screenshot-wrapper img {
-    width: 100%; /* Image occupe tout l'espace */
+    width: 100%; 
     height: auto;
     border-radius: 2%;
-    display: block; /* Pour éliminer l'espace blanc en dessous de l'image */
+    display: block; 
   }
 
   .title-cmpt {
@@ -90,6 +89,11 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    }
+    .dotted-line {
+      border-bottom: 1px dotted #634c8f; 
+      width: 50%; 
+      margin: 20px auto; 
     }
 
     .project-modal {
