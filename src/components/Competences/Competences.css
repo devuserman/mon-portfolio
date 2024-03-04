@@ -1,11 +1,27 @@
 .categorie-container {
-    margin-top: 100px;
+    animation: gradient 15s ease infinite;
+    background: linear-gradient(-45deg, #c9c7c7, #faf9f8, #f5f0f0, #f3efef);
+    background-size: 400% 400%;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px;
     display: flex;
     justify-content:space-between;
-   
    align-items: center;
-    margin-bottom: 20px;
+
 }
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 .outil-item {
     display: flex;
     justify-content:space-between;
@@ -64,9 +80,7 @@
     .categorie-container {
         flex-direction: column;
         align-items: center;
-        
-       
-        margin: auto;
+        margin-bottom: 20px;
 }
 .categorie-container h3 {
     margin-bottom: 0;
@@ -81,8 +95,11 @@
         display: flex;
         justify-content: space-between;
         padding: 20px 0;
-        
-    }
+}
+.outil-image {
+    width: 30px;
+    height: 30px;
+}
 }
 
 
