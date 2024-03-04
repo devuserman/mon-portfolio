@@ -5,6 +5,7 @@ import './Apropos.css';
 import SkillsChart from '../SkillsChart/SkillsChart.js';
 import SkillsAnimation from '../SkillsAnimation/SkillsAnimation'; // Nouveau composant pour l'animation des compétences
 import AnimatedCodeBlock from '../AnimatedCodeBlock/AnimatedCodeBlock';
+import Competences from '../Competences/Competences.js';
 
 
 function Apropos() {
@@ -14,6 +15,8 @@ function Apropos() {
       <main className="main-apropos">
         <h2 className="titre-apropos">Mes Compétences et les Outils que je maîtrise</h2>
         
+        <Competences />
+
         <div className="image-container">
       <img src="/images/depositphotos_66808691-stock-illustration-laptop-with-blank-screen-isolated.jpg" alt="Computer" className="computer-image" />
       <AnimatedCodeBlock />

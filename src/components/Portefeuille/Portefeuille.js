@@ -64,8 +64,7 @@ function Portefeuille() {
                         <li key={index}>{skill}</li>
                       ))}
                     </ul>
-                    <em className="mon-info">{project.additionalInfo.problem}</em><br />
-                   <em className="mon-info">{project.additionalInfo.solution}</em><br />
+                    
                   </div>
                    {/* Bouton pour fermer le modal */}
                   <button

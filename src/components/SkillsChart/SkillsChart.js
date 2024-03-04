@@ -9,10 +9,10 @@ const SkillsChart = () => {
         const myChart = new Chart(chartRef.current, {  // Création d'une nouvelle instance de graphique
             type: 'bar',   // Type de graphique (barres ici)
             data: {
-                labels: ['HTML', 'CSS/SASS', 'JavaScript', 'Framework React', 'Node.js', 'Express.js'], // Libellés des compétences
+                labels: ['HTML', 'CSS/SASS', 'JavaScript', 'Framework React', 'Node.js', 'Express.js', 'MongoDB', 'API REST', 'CMS/WordPress'], // Libellés des compétences
                 datasets: [{
                     label: 'Mes compétences', // Nom du jeu de données
-                    data: [95, 80, 75, 80, 70, 70],  // Valeurs des compétences (sur une échelle de 0 à 100)
+                    data: [95, 80, 60, 70, 50, 50, 50, 50, 70],  // Valeurs des compétences (sur une échelle de 0 à 100)
                     backgroundColor: [ // Couleurs de fond des barres
                         'rgba(255, 99, 132, 0.2)',
                         'rgba(54, 162, 235, 0.2)',
